@@ -7,9 +7,9 @@ import { UserDetailContext } from './_context/UserDetailContext';
 const Provider = ({ children }) => {
 
     const { user } = useUser();
-    const [userDetail, setUserDetail] = useState([]),
+    const [userDetail, setUserDetail] = useState([]);
     useEffect(() => {
-        user && VerifuUser()
+        user&&VerifuUser();
     }, [user])
 
     const VerifuUser = async () => {
