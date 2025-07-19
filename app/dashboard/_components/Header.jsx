@@ -7,7 +7,7 @@ import React, { useContext } from 'react'
 
 const Header = () => {
     const {userDetail, setUserDetail} = useContext(UserDetailContext);
-    console.log("userDetails: ", userDetail)
+    // console.log("userDetails: ", userDetail)
     return (
         <div className='p-5 shadow-sm flex justify-between items-center'>
             <div className='flex items-center gap-2'>
